@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
+}
+h1 {
+  font-size: 50px;
+}
+h1,
+p {
+  font-family: Monospace;
+  text-align: center;
+  color: black;
+}
+p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.page-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 55vh;
+  max-height: 100%;
+}
+
+/* FLEXBOX - PUTS ARTIST IN A ROW/COL*/
+.artist-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /*space artist items evenly*/
+  align-items: center; /*centers vertically*/
+  width: 100%; /*spans the full width of its parent*/
+}
+
+/* FOR EACH CLASS */
+.Queen,
+.Tone,
+.Domani,
+.Kehlani,
+.Chris {
+  font-size: 20px;
+  font-family: Monospace;
+  display: block;
+  text-align: center;
+}
+
+/* Center images */
+.Queen img,
+.Tone img,
+.Domani img,
+.Kehlani img,
+.Chris img {
+  display: inline;
+  margin: 0 auto;
+}
+
+/* for all the a href link */
+a {
+  color: #886cc7;
+}
+
+button {
+  color: black;
+  display: block;
+  margin: 10px auto;
+  padding: 15px 24px;
+  border: 3px solid #ffdabf;
+  border-radius: 15px;
+}
+button:hover {
+  cursor: pointer;
+  color: #edbdea;
+}
+/* the name of the div & change paragraph size */
+.contact p {
+  text-align: center;
+  font-size: 13px;
+}
